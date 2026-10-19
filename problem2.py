@@ -12,6 +12,6 @@ def div_rational(x,y):
   >>> div_rational(rational(3,4),rational(2,5))
   rational(15,8)
   '''
-num=numerator(x)*denominator(y)
-den=denominator(x)*numerator(y)
-return(num,den)
+  num=numerator(x)*denominator(y)
+  den=denominator(x)*numerator(y)
+  return(num,den)
