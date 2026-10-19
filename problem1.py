@@ -9,6 +9,8 @@ def mul_rational(x,y):
   rational(2,9)
   >>> mul_rational(rational(4,6),rational(3,2))
   rational(1,1)
+  >>> mul_rational(rational(2,3),rational(5,7))
+  rational(10,21)
   '''
   num=numerator(x)*numerator(y)
   den=denominator(x)*denominator(y)
