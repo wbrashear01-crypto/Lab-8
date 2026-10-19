@@ -12,7 +12,7 @@ def rationals_are_equal(x,y):
   >>> rationals_are_equal(rational(2,1),rational(1,10))
   False
   '''
-if numerator(x)*denominator(y)==numerator(y)*denominator(x):
-  return True
-else:
-  return False
+  if numerator(x)*denominator(y)==numerator(y)*denominator(x):
+    return True
+  else:
+    return False
